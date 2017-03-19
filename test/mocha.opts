@@ -1,2 +1,2 @@
+--recursive
 -R spec
---require should
