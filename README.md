@@ -9,13 +9,20 @@
 
 ## Install
 ```sh
-$ npm i eslint-plugin-magicdawn --save
+$ npm i eslint-plugin-magicdawn --save-dev
 ```
 
-## API
-```js
-const eslintPluginMagicdawn = require('eslint-plugin-magicdawn');
-```
+## rules
+
+|name|desc|doc|
+|----|----|---|
+| `no-module-export` | no `module.export = ` assignment | [doc](docs/rules/no-module-export.md) |
+
+
+## Why
+
+### 2017-03-19
+I have a typo `module.export`, missing `'s'` that made me confused
 
 ## Changelog
 [CHANGELOG.md](CHANGELOG.md)
