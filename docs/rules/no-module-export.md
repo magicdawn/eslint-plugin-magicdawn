@@ -1,36 +1,28 @@
 # no module.export (no-module-export)
 
-Please describe the origin of the rule here.
+report error when `module.export` typo occurs
 
 
 ## Rule Details
 
-This rule aims to...
+This rule aims to kill `module.export` typo
 
 Examples of **incorrect** code for this rule:
 
 ```js
-
-// fill me in
-
+module.export = {
+  foo: 'bar'
+}
 ```
 
 Examples of **correct** code for this rule:
 
 ```js
-
-// fill me in
-
+module.exports = {
+  foo: 'bar'
+}
 ```
-
-### Options
-
-If there are any options, describe them here. Otherwise, delete this section.
-
-## When Not To Use It
-
-Give a short description of when it would be appropriate to turn off this rule.
 
 ## Further Reading
 
-If there are other links that describe the issue this rule addresses, please include them here in a bulleted list.
+- https://nodejs.org/dist/latest-v7.x/docs/api/modules.html#modules_module_exports
