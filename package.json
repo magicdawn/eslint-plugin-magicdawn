@@ -1,0 +1,32 @@
+{
+  "name": "eslint-plugin-magicdawn",
+  "version": "0.0.1",
+  "description": "eslint plugin for self use",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "test-cover": "istanbul cover _mocha -- -u exports",
+    "report-cover": "codecov"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/magicdawn/eslint-plugin-magicdawn.git"
+  },
+  "keywords": [
+    "eslint",
+    "magicdawn",
+    "module.export"
+  ],
+  "author": "magicdawn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/magicdawn/eslint-plugin-magicdawn/issues"
+  },
+  "homepage": "https://github.com/magicdawn/eslint-plugin-magicdawn#readme",
+  "devDependencies": {
+    "codecov": "^1.0.1",
+    "eslint": "^3.10.0",
+    "mocha": "^3.1.2",
+    "should": "^11.1.1"
+  }
+}
