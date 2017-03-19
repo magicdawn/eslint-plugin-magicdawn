@@ -32,5 +32,13 @@
   },
   "peerDependency": {
     "eslint": ">3"
-  }
+  },
+  "files": [
+    "package.json",
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE",
+    "index.js",
+    "lib"
+  ]
 }
