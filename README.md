@@ -1,4 +1,6 @@
 # eslint-plugin-magicdawn
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/magicdawn/eslint-plugin-magicdawn.svg)](https://greenkeeper.io/)
 > eslint plugin for self use
 
 [![Build Status](https://img.shields.io/travis/magicdawn/eslint-plugin-magicdawn.svg?style=flat-square)](https://travis-ci.org/magicdawn/eslint-plugin-magicdawn)
