@@ -4,8 +4,8 @@
   "description": "eslint plugin for self use",
   "main": "index.js",
   "scripts": {
-    "test": "mocha",
-    "test-cover": "istanbul cover _mocha -- -u exports",
+    "test": "jest",
+    "test-cover": "jest --coverage",
     "report-cover": "codecov"
   },
   "repository": {
@@ -26,9 +26,10 @@
   "devDependencies": {
     "codecov": "^1.0.1",
     "eslint": "^3.10.0",
-    "istanbul": "^1.1.0-alpha.1",
-    "mocha": "^3.1.2",
-    "should": "^11.1.1"
+    "jest": "^24.1.0",
+    "husky": "latest",
+    "lint-staged": "latest",
+    "prettier": "latest"
   },
   "peerDependency": {
     "eslint": ">3"
@@ -40,5 +41,16 @@
     "LICENSE",
     "index.js",
     "lib"
-  ]
+  ],
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,less,vue}": [
+      "prettier --write",
+      "git add"
+    ]
+  }
 }

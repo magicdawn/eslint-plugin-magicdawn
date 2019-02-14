@@ -14,15 +14,17 @@ const ruleTester = new RuleTester()
 
 const rule = require('../../../lib/rules/no-module-export')
 ruleTester.run('no-module-export', rule, {
-  valid: [
-    `module.exports = { foo: 'bar' }`
-  ],
+  valid: [`module.exports = { foo: 'bar' }`],
 
-  invalid: [{
-    code: `module.export = { foo: 'bar' }`,
-    errors: [{
-      message: `found module.export, missing 's'`,
-      type: 'MemberExpression'
-    }]
-  }]
+  invalid: [
+    {
+      code: `module.export = { foo: 'bar' }`,
+      errors: [
+        {
+          message: `found module.export, missing 's'`,
+          type: 'MemberExpression',
+        },
+      ],
+    },
+  ],
 })
