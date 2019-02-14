@@ -24,10 +24,10 @@
   },
   "homepage": "https://github.com/magicdawn/eslint-plugin-magicdawn#readme",
   "devDependencies": {
-    "codecov": "^1.0.1",
-    "eslint": "^3.10.0",
-    "jest": "^24.1.0",
+    "codecov": "^3.2.0",
+    "eslint": "^5.13.0",
     "husky": "latest",
+    "jest": "^24.1.0",
     "lint-staged": "latest",
     "prettier": "latest"
   },
