@@ -5,7 +5,7 @@ env:
   browser: true
 
 parserOptions:
-  ecmaVersion: 8
+  ecmaVersion: 2019
   parser: babel-eslint
   sourceType: module
 
