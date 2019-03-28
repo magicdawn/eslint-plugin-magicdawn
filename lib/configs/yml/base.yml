@@ -3,7 +3,6 @@ env:
   es6: true
   jest: true
   mocha: true
-  jest: true
 
 # ecmaFeatures.experimentalObjectRestSpread -
 # enable support for the experimental object rest/spread properties.

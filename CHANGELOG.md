@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## v0.0.5 2019-03-28
+
+- fix env duplicate
+
 ## v0.0.4 2019-03-28
 
 - update `plugin:magicdawn/base` & `plugin:magicdawn/vue` config, ecmaVersion to 2019
